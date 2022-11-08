@@ -1,0 +1,63 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	background: black;
+	width: 100%;
+}
+.title{
+	height: 100px;
+	color: white;
+	font-family:'Caveat';
+	font-size: 80px;
+	}
+
+.date1{
+	text-decoration: none;
+  font-family:'Caveat';
+	font-size: 30px;
+	margin-left: 41%;
+	color: white;
+}
+.date{
+font-family:'Caveat';
+	font-size: 30px;
+	padding-right:15px;
+	color: white;
+	text-decoration: none; 
+}
+.date:hover{
+  color: greenyellow; /* Schimbam culoarea la text */
+  border-left:solid 3px greenyellow;
+  border-right:solid 3px greenyellow;
+}
+.date1:hover{
+  color: greenyellow; 
+  border-left:solid 3px greenyellow;
+  border-right:solid 3px greenyellow;
+}
+
+.logo{
+	font-family:'Caveat';
+	font-size: 90px;
+	text-align: center;
+}
+.fon{
+	position: absolute;
+	width: 100%;
+	opacity: 0.33;/*transparenta*/
+}
+/*bordura la text*/
+.citat{
+width: 70%;
+padding-left: 10px; 
+height: 500px; 
+background: black;
+opacity: 0.9;
+border-radius: 25px;
+margin-left: 15%;
+font-size: 35px;
+color: white;
+}
