@@ -1,0 +1,144 @@
+html {
+    background-image: url(img/fon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+}
+body {
+    min-height: 100vh;
+}
+.uk-alert{
+	position: relative;
+	margin-top:20px;
+	margin-left: 100px;
+	margin-bottom: 20px;
+	padding: 15px 29px 15px 15px;
+	background: #f8f8f8;
+	color: #666;
+	width: 412px;
+	height: 28px;
+}
+.uk-alert h4{
+	color: inherit;
+}
+.uk-txt-center{
+	text-align: center;
+}
+.text-white{
+	font-weight: 900;
+}
+h4{
+	font-size: 1.25rem;
+	line-height: 1.4;
+	margin: 0 0 20px 0;
+	font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.uk-button {
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    font-family:"Times New Roman";
+    font-weight: bold;
+    text-transform: none;
+     margin: 0;
+    border: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 0 18px;
+    vertical-align: middle;
+    line-height: 38px;
+    text-align: center;
+    margin-left: 100px;
+}
+.uk-button:hover {
+    /* opacity: 1; */
+    background-color: white;
+    color: black;
+}
+
+.uk-button.active {
+    /* opacity: 1; */
+    background-color: white;
+    color: black;
+}
+
+form{
+	position: relative;
+}
+input {
+  margin-left: 100px;
+  margin-top:20px;
+  width: 455px;
+  height: 40px;
+  font-size: 16px;
+  font-family: "Times New Roman";
+  border: 1px solid #e5e5e5
+}
+.box{
+    display:block;
+	background-color: white;
+	height: 100px;
+	margin-left: 100px;
+    margin-top:20px;
+    width: 455px;
+}
+.ziua{
+    display: #000000;
+    margin-top: 27px;
+    margin-left: 100px;
+    width: 455px;
+    height: 36px;
+    border: 0;
+    font-size: 16px;
+    color: #000000;
+}
+.saptamina{
+    display: block;
+    margin-top: 27px;
+    margin-left: 100px;
+    width: 455px;
+    height: 36px;
+    border: 0;
+    font-size: 16px;
+    color: #000000;
+}
+.Semestru{
+    display: block;
+      margin-top: 27px;
+      margin-left: 100px;
+      width: 455px;
+      height: 36px;
+      border: 0;
+      font-size: 16px;
+      color:  #000000;
+  }
+  .tabel{
+    margin-top: 27px;
+    margin-left: 100px;
+    display: grid;
+    grid-template-columns: repeat(8, 57px);
+    grid-template-rows: repeat(8, 1fr);
+    height: 200px;
+    color: #000000;
+}
+.tabel div{
+    background-color: white;
+    border: 0.5px solid gray;
+    color: white;
+}
+
+div#tab{
+    border: 0.5px solid white;
+    background-color: green;
+}
+
+div#lectia{
+    background-color: #0066FF;
+}
+
+.div-tabel div:hover{
+    border: 2px solid #25975A;
+}
